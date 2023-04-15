@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nunito:wght@300;400&family=Poiret+One&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+      <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="/dist/output.css" />
+
+    <title>SIDOH AI</title>
+  </head>
+  <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-gold">
+    <!-- navber section  -->
+    <header class="bg-black text-whitish sticky top-0 z-10">
+        <!--the nav bar  -->
+      <nav class="max-w-7xl mx-auto p-4 flex justify-between items-center" >
+      
+        <div class="flex items-center mt-1 space-x-20">
+          <!-- logo  -->
+          <a href="#" class="text-gold text-2xl font-mini flex flex-row space-x-2" >
+            <img src="images/brand.svg" alt="" />
+            <span>Sidoh.ai</span>
+          </a>
+          
+        </div>
+      <!-- left menu  -->
+       
+        
+       <!--  Hamburger Button  -->
+          <div class="md-hidden ">
+            <button
+              id="menu-btn"
+              type="button"
+              class="z-40 block  hamburger md:hidden focus:outline-none"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+
+              <!-- Menu  -->
+          <div class="hidden h-10 font-mini text-whitish  md:flex md:space-x-8">
+            <div class="group">
+              <a href="#" class="text-xl">Product</a>
+              <div
+                class=" text-xl group:hover-b group-hover:border-b group-hover:border-2 group-hover:border-blue-50"
+              ></div>
+            </div>
+
+            <div class="group">
+              <a href="#" class="text-xl">About</a>
+              <div
+                class=" text-xl group:hover-b group-hover:border-b group-hover:border-2 group-hover:border-blue-50"
+              ></div>
+            </div>
+
+            <div class="group">
+              <a href="#" class="text-xl">Contact</a>
+              <div
+                class=" text-xl group:hover-b group-hover:border-b group-hover:border-2 group-hover:border-blue-50"
+              ></div>
+            </div>
+      <!-- Right Button  -->
+          <div class=" font-thin align-middle text-gold mx-1 text-5xl  -mt-2">|</div>
+          <a
+            href=""
+            class="px-8 py-2 -mt-1 font-bold font-mini text-black bg-gold rounded-full hover:opacity-70"
+            >Get Started</a
+          >
+        
+      
+      </div>
+    </nav>
+
+
+        </nav>
+        <!--  -Mobile menu  -->
+
+        <div
+          id="menu"
+          class="absolute top-0 bottom-0 left-0 flex-col self-end hidden w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-whi Capitalize bg-black font-mini"
+        >
+        <a href="#" class="hover:text-pink-500">Product</a>
+          <a href="#" class="hover:text-pink-500">About</a>
+          <a href="#" class="hover:text-pink-500">Contact</a>
+   
+        </div>
+    </header>
+
+
+        <!-- hero section  -->
+      <main id="hero" class="flex flex-col-reverse mx-auto lg:flex-row mb-20 max-w-7xl  space-y-5 " >
+
+
+          <!-- Content section  -->
+           <div class="flex flex-col space-y-6 lg:mt-36 lg:w1/2 xl:mb-52 p-7 lg:w-1/2 ">
+          <h2
+            class="text-5xl font-bold font-sans text-center text-gold lg:text-6xl lg:max-w-lg lg:text-left"
+          >
+            AI-Powered Disease Detection
+          </h2>
+          <p
+            class="text-xl text-center font-mono text-whitish lg:max-w-lg lg:text-left"
+          >
+            Utilize the power of AI disease detection and prediction fast and efficient in no time and with less cost.
+          </p>
+          <div class="mx-auto lg:mx-0">
+            <a
+              href="#"
+              class="py-3 px-10 m-y2 text-xl lg:text-2xl font-mini text-black bg-gold rounded-full lg:py-5  hover:opacity-70"
+              >Get Started</a
+            >
+          </div>
+        </div>
+       
+        <!-- Image  -->
+        <div class="mb-24  mx-auto md:w-180 lg:mb-0 lg:w-1/2 ">
+           <!-- <img src="https://artsformysake.files.wordpress.com/2020/08/face-id-glitch.gif" alt="" /> -->
+          <img class="lg:mt-28" src="https://i.pinimg.com/originals/04/c8/5f/04c85f4ef046820c578a0d0fddd2142c.gif" alt="" />
+
+          </div>
+      </main>
+        
+
+     <!-- HOW SECTION  -->
+      <section id="how" class="bg-gradient-to-r from-whitish to-gold ">
+           <!-- items container  -->
+        <main
+          class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-4 px-6 lg-px-0 py-16"
+        >
+          <!-- item 1  -->
+          <div class="items-center gap-y-6">
+            
+          <div class="flex flex-row mb-2 items-center ">
+          <div class="flex items-center justify-center w-10 h-10  mr-2 rounded-full bg-black lg:mb-0">
+            <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+              <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+          </div>
+          <h6 class="font-bold  text-black font-sans text-2xl py-5 ">How it Works?</h6>
+        </div>
+
+      <div>
+      <p class="mb-3  font-mini text-black text-md">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam consequatur velit quis dolor quos, fugiat saepe! Laudantium dolore minima nemo, impedit mollitia deserunt consectetur, harum facere tenetur praesentium soluta.
+      </p>
+   <div class="max-w-sm space-y-3 mb-10 lg:max-w-xl">
+    <div class="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
+      <div class="mr-2">
+        <svg class="w-6 h-6 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8" stroke="currentColor" viewBox="0 0 52 52">
+          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+        </svg>
+      </div>
+      <span class="text-black font-mini font-thin transition-colors duration-200 group-hover:text-white text-sm">Change the world by being yourself.</span>
+    </div>
+
+       <div class="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
+      <div class="mr-2">
+        <svg class="w-6 h-6 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8" stroke="currentColor" viewBox="0 0 52 52">
+          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+        </svg>
+      </div>
+      <span class="text-black font-mini font-thin transition-colors duration-200 group-hover:text-white text-sm">Change the world by being yourself.</span>
+    </div>
+
+       <div class="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
+      <div class="mr-2">
+        <svg class="w-6 h-6 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8" stroke="currentColor" viewBox="0 0 52 52">
+          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+        </svg>
+      </div>
+      <span class="text-black font-mini font-thin transition-colors duration-200 group-hover:text-white text-sm">Change the world by being yourself.</span>
+    </div>
+ 
+  </div>
+
+    <div class="mx-auto lg:mx-0">
+            <a
+              href="#"
+              class="py-3 px-8 text-md lg:text-xl font-mini text-gold bg-black rounded-full lg:py-4  hover:opacity-70"
+              >Get Started</a
+            >
+          </div>
+    </div>
+    <div>
+          </div>
+          </div>
+
+          <!-- item 2 -->
+          <div class="col-span-2 items-center gap-y-6 p-16">
+            <img src="https://static.vecteezy.com/system/resources/previews/012/895/832/original/brain-in-futuristic-artificial-intelligence-design-theme-printed-circuit-board-outline-illustration-for-design-element-modern-technology-networking-with-ai-processor-png.png" alt="" class="mb-6" />
+            
+      
+          </div>
+
+          <!-- item 3  -->
+          <div class="items-center gap-y-5 ">
+              <div class="flex flex-row mb-2 items-center ">
+                <div class="flex items-center justify-center w-10 h-10  mr-2 rounded-full bg-black lg:mb-0">
+                  <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                    <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                  </svg>
+                </div>
+                <h6 class="font-bold  text-black font-sans text-2xl py-5 ">Machine Learning</h6>
+                
+              </div>
+              <div >
+                  <p class="mb-3  font-mini text-black text-md">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, enim repellat laudantium facere reiciendis soluta odit aspernatur, nostrum fuga ut earum nihil qui ipsam voluptates minus distinctio odio exercitationem? Minus.
+                  </p>
+              </div>
+               
+
+            <div class="p-3 bg-black text-gold rounded-lg max-w-md lg:max-w-lg mt-10 ">
+            
+              <p class="mb-2 text-sm  font-thin font-mini italic ">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam.
+              </p>
+            
+          
+          </div>
+          </div>
+        </main>
+      </section>
+   
+      <!-- DESCRIPTION  -->
+      <section class="p-10 bg-black" id="description">
+        <main class="max-w-7xl mx-auto  mt-10  lg:mt-20">
+          <h1 class="lg:text-7xl font-bold text-5xl ">Our Creation</h1>
+            <!-- Content 1 -->
+          <div class="flex flex-col md:flex-row  space-y-3  mt-20">
+            <div class="lg:w-1/3 space-y-6">
+              <h3 class="font-gold font-semibold text-2xl">Diabetes Prediction</h3>
+              <ul class="text-whitish font-thin font-mini text-md lg:text-xl ">
+              <li >- Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit pariatur</li>
+              <li ">- Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit pariatur</li>
+              </ul>
+            <div class="mx-auto lg:mx-0  ">
+            <a
+              href="#"
+              class="py-2 px-6 text-md  font-mini text-black bg-gold rounded-full lg:py-4  hover:opacity-70"
+              >Get Started</a
+            >
+          </div>      
+            </div>
+          
+            <div class="lg:w-2/3 py-10 lg:px-28">
+              <img src="https://www.innoquest.com.my/wp-content/uploads/Diabetes-Overview-1-768x768.png" alt="" >
+            </div>
+           </div> 
+         
+            <!-- content 2  -->
+            <div class="flex  flex-col-reverse md:flex-row  space-y-3  mt-20">
+           
+            <div class="lg:w-2/3 py-10">
+              <img src="https://easydrawingguides.com/wp-content/uploads/2018/09/Human-Heart-10.png" alt=""  >
+            </div>
+
+           <div class="lg:w-1/3 space-y-6">
+              <h3 class="font-gold font-semibold text-2xl">Heart-Disease Prediction</h3>
+              <ul class="text-whitish font-thin font-mini text-md lg:text-xl ">
+              <li >- Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit pariatur</li>
+              <li ">- Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit pariatur</li>
+              </ul>
+            <div class="mx-auto lg:mx-0  ">
+            <a
+              href="#"
+              class="py-2 px-6 text-md  font-mini text-black bg-gold rounded-full lg:py-4  hover:opacity-70"
+              >Get Started</a
+            >
+          </div>      
+            </div>
+            
+          </div>
+
+               <!-- Content 3 -->
+        <div class="flex flex-col md:flex-row  space-y-3  mt-20">
+            <div class="lg:w-1/3 space-y-6">
+              <h3 class="font-gold font-semibold text-2xl">Heart-Disease Prediction</h3>
+              <ul class="text-whitish font-thin font-mini text-md lg:text-xl ">
+              <li >- Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit pariatur</li>
+              <li ">- Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit pariatur</li>
+              </ul>
+            <div class="mx-auto lg:mx-0  ">
+            <a
+              href="#"
+              class="py-2 px-6 text-md  font-mini text-black bg-gold rounded-full lg:py-4  hover:opacity-70"
+              >Get Started</a
+            >
+          </div>      
+            </div>
+             <div class="lg:w-2/3 py-10">
+              <img src="https://ychef.files.bbci.co.uk/976x549/p028qsgx.jpg" alt=""  >
+            </div>
+          </div>
+             <!-- content 4  -->
+              <div class="flex flex-col-reverse md:flex-row  space-y-3  mt-20">
+                     <div class="lg:w-2/3 py-10">
+              <img src="https://static.vecteezy.com/system/resources/previews/009/303/620/original/lung-clipart-design-illustration-free-png.png" alt=""  >
+            </div>
+            <div class="lg:w-1/3 space-y-6">
+              <h3 class="font-gold font-semibold text-2xl">Covid & TB                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Prediction</h3>
+              <ul class="text-whitish font-thin font-mini text-md lg:text-xl ">
+              <li >- Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit pariatur</li>
+              <li ">- Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit pariatur</li>
+              </ul>
+            <div class="mx-auto lg:mx-0  ">
+            <a
+              href="#"
+              class="py-2 px-6 text-md  font-mini text-black bg-gold rounded-full lg:py-4  hover:opacity-70"
+              >Get Started</a
+            >
+          </div>      
+            </div>
+        
+          </div>
+           
+        </main>
+      
+
+      </section>
+
+      <!-- Team section  -->
+        <section id="team" class="bg-whitish">
+          <main class="max-w-7xl mx-auto py-3">
+             
+    <h1 class="bg-black max-w-xs mx-auto px-1 py-4 font-mono font-semi-bold text-center uppercase rounded-full ">
+      Discover Our Team
+    </h1>
+  
+
+            <!-- Person 1  -->
+
+  <div class="grid gap-20  mx-auto grid-cols-1  lg:grid-cols-4  py-10 lg:max-w-screen-lg lg:py-28">
+    <div class="flex flex-col items-center lg:items-start ">
+      <img class="object-cover w-24 h-24 rounded-full shadow" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="Person" />
+        <p class="text-md  font-mini text-amber-700">Hakeem</p>
+        <p class="mb-4 text-sm font-light font-mono text-slate-500 ">Product Manager</p>
+        <p class="text-sm font-light font-mini tracking-wide text-gray-800 ">
+          Pommy ipsum bent as a nine bob note naff off biscuits nowt, a cuppa 
+        </p>
+    </div>
+    <div class="flex flex-col items-center lg:items-start">
+      <img class="object-cover w-24 h-24 rounded-full shadow" src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="Person" />
+         <p class="text-md  font-mini text-amber-700">Pharm. Ugwu Chima</p>
+        <p class="mb-4 text-sm font-light font-mono text-slate-500 ">Product Manager</p>
+        <p class="text-sm font-light font-mini tracking-wide text-gray-800 ">
+          Pommy ipsum bent as a nine bob note naff off biscuits nowt, a cuppa 
+        </p>
+      </div>
+
+       <div class="flex flex-col items-center lg:items-start">
+
+      <img class="object-cover w-24 h-24 rounded-full shadow" src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="Person" />
+     <p class="text-md  font-mini text-amber-700">Achara Franklyn</p>
+        <p class="mb-4 text-sm font-light font-mono text-slate-500 ">Product Manager</p>
+        <p class="text-sm font-light font-mini tracking-wide text-gray-800 ">
+          Pommy ipsum bent as a nine bob note naff off biscuits nowt, a cuppa 
+        </p>
+    </div>
+
+      <div class="flex flex-col items-center lg:items-start">
+      <img class="object-cover w-24 h-24 rounded-full shadow" src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="Person" />
+        <p class="text-md  font-mini text-amber-700">Dr. Ekanem</p>
+        <p class="mb-4 text-sm font-light font-mono text-slate-500 ">Product Manager</p>
+        <p class="text-sm font-light font-mini tracking-wide text-gray-800 ">
+          Pommy ipsum bent as a nine bob note naff off biscuits nowt, a cuppa 
+        </p>
+     
+ 
+  </div>
+</div>
+          </main>
+        </section>
+
+
+<!-- footer  -->
+<footer class="relative bg-black pt-8 pb-6">
+  <main class="max-w-7xl mx-auto px-4">
+    <div class="flex flex-wrap text-left lg:text-left">
+      <div class="w-full lg:w-6/12 px-4">
+        <h4 class="text-3xl font-bold font-sans text-gold">Sidoh.ai</h4>
+        <h5 class="text-lg mt-0 mb-2 text-whitish  font-mono font-light ">
+         You can join our growing community of users 
+        </h5>
+        <div class="mt-6 lg:mb-0 mb-6">
+<div class="flex flex-row gap-2">
+
+          <button class="flex flex-col bg-whitish text-whitish-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full  text-center outline-none focus:outline-none  " type="button">
+            <img src="images/facebook.svg" alt="">
+</button>
+
+   <button class="flex flex-col bg-whitish text-whitish-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full  text-center outline-none focus:outline-none  " type="button">
+           <img src="images/twitter.svg" alt="">
+
+</button>
+
+          <button class="flex flex-col bg-whitish text-whitish-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full  text-center outline-none focus:outline-none  " type="button">
+           <img src="images/instagram.svg" alt="">
+
+   <button class="flex flex-col bg-whitish text-whitish-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full  text-center outline-none focus:outline-none  " type="button">
+           <img src="images/linkedin.svg" alt="">
+
+</button>
+
+</button>
+</div>
+
+
+        </div>
+      </div>
+      <div class="w-full lg:w-6/12 px-4 ">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <span class="block  uppercase text- text-gold  font-mini font-semibold mb-2">Useful Links</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-whitish font-mini font-light block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+              </li>
+              <li>
+                <a class="text-whitish font-mini font-light block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+              </li>
+              <li>
+                <a class="text-whitish font-mini font-light block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+              </li>
+              <li>
+                <a class="text-whitish font-mini font-light block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 px-4 ">
+            <span class="block uppercase text- text-gold  font-mini font-semibold mb-2">Other Resources</span>
+            <ul class="list-unstyled">
+           
+              <li>
+                <a class=" text-whitish font-mini font-light block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a class="text-whitish font-mini font-light block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-whitish font-mini font-light  block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </main>
+   <hr class="my-6  border-1 border-slate-700">
+    <div class="flex flex-wrap items-center md:justify-between justify-center">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-whitish font-mini font-light py-1">
+          Copyright © <span id="get-current-year">2023</span><a href="#" class="text-blueGray-500 hover:text-gray-800" target="_blank">
+          <a href="https://www.creative-tim.com?ref=njs-profile" class="text-blueGray-500 hover:text-blueGray-800">Created By Sidoh Team</a>.
+        </div>
+      </div>
+    </div>
+</footer>
+  </body>
+</html>
